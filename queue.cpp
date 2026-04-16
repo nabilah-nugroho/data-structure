@@ -58,7 +58,7 @@ class Queue{
     }
 
     void printQueue(){
-        if(isEmpty){
+        if(!isEmpty){
             cout << "========ISI QUEUE=========" << endl;
             for(int i = last; i >= first; i--){
                 cout << "=============================" << endl;
